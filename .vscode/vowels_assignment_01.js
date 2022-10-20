@@ -53,14 +53,31 @@ var square=function(arg2){
     console.log(`square of numbers from 1 to 5: ${squaresum}`);
 }
 square(5);
-console.log("-----------------------------------------------------------------------------");
+console.log("-----------------------------Even number characters-------------------------------------");
 var evenPositionChars=function(arg3){
-    
+    var res = " ";
     for(let i=0;i<arg3.length;i++){
-        if(i%2==0){
-            console.log(arg3.charAt(i));
+        var char = arg3.charAt(i);
+        if(i%2==0 && char !=" "){
+            res= res + char+" ";
+            
         }
     }
+    console.log(res," ");
 }
-evenPositionChars("Hard work always pays back")
-console.log("------------------------------------------------------------------------------");
+evenPositionChars("Hard work always pays back");
+evenPositionChars("Soon I will be Angular IT Champ");
+console.log("------------------------------Odd number Characters------------------------------------");
+var oddPositionChars=function(arg4){
+    var result = " ";
+    for(let i=0;i<arg4.length;i++){
+        var chars = arg4.charAt(i);
+        if(i%2!=0 && chars !=" "){
+            result= result + chars+" ";
+            
+        }
+    }
+    console.log(result);
+}
+oddPositionChars("Hard work always pays back");
+oddPositionChars("Soon I will be Angular IT Champ");
