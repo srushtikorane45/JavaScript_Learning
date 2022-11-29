@@ -16,7 +16,7 @@ var value =  functionName("Pune", "Khawgalli", 22);
 console.log(value);
 
 
-function swap_values(arg1, arg2){
+function swap_values(arg1, arg2,arg3){
     console.log("---------- Before swap-------------");
     console.log(arg1, arg2);
     console.log("---------- After swap-------------");
@@ -30,8 +30,10 @@ swap_values("Mango", "Apple");
 swap_values(100, 300);
 
 console.log("---------- Addition function-------------");
-function addition(arg1, arg2, arg3){
+var addition=function(arg1, arg2, arg3,arg4){
     console.log(arg1 + arg2 + arg3);
 }
 addition(200, 300, 600);
 addition("Sachin", "Ramesh", "Tendulkar");
+
+

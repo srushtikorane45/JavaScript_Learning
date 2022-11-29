@@ -6,3 +6,4 @@ let objectSachin={
       is_married:true
 }
 console.table(objectSachin);
+console.log(typeof objectSachin);

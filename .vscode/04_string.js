@@ -76,6 +76,9 @@ var stepSplit =  res.split(" ");
 console.log(stepSplit);
 console.log(stepSplit.length);
 
+var string="Happy";
+var st2= "birthday";
+console.log(st2.indexOf("i"));
 
 
 
